@@ -93,4 +93,3 @@ if ('webkitSpeechRecognition' in window || 'SpeechRecognition' in window) {
 function startVoice() {
   if (recognition) recognition.start();
 }
-
